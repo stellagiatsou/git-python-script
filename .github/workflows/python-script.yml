@@ -26,4 +26,4 @@ jobs: #defines the job to run the script.
           # Add any other dependencies if required
 
       - name: Run Python script
-        run: python hello_world.py
+        run: python date.py

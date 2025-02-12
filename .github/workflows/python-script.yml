@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: "0 22 * * *" # This runs the job every day at 2 AM UTC
+    - cron: "35 22 * * *" # This runs the job every day at 2 AM UTC
   push:
     branches:
       - main # Optionally, run on every push to the main branch

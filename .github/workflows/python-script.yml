@@ -2,7 +2,7 @@ name: GitHub Contribution Booster
 
 on:
   schedule:
-    - cron: "35 22 * * *" #Runs every day at 22:35 UTC
+    - cron: "05 21 * * *" #Runs every day at 22:35 UTC
   push:
     branches:
       - main

@@ -1,4 +1,5 @@
-from datetime import date
+from datetime import datetime
 
-today = date.today()
-print("Current date: ", today)
+now = datetime.today()
+with open("datetime.txt", "w") as file:
+    file.write(f"Local date and time: {now}\n")
